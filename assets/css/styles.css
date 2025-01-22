@@ -1,0 +1,127 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+a:hover {
+    color: #007bff; /* Bisa diganti dengan warna lain sesuai tema */
+}
+
+a i {
+    transition: transform 0.3s ease;
+}
+
+/* Ikon animasi ketika di-hover */
+a:hover i {
+    transform: scale(1.2);
+}
+
+
+
+#certification {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#certification .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#certification .card:hover {
+    transform: scale(1.05);
+}
+
+.d-flex {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.d-flex::-webkit-scrollbar {
+    height: 8px;
+}
+
+.d-flex::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.d-flex::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+/* Tombol navigasi custom untuk carousel Project 1 */
+#project1Carousel .carousel-control-prev-icon,
+#project1Carousel .carousel-control-next-icon {
+    background-color: #007bff; /* Warna tombol biru untuk Project 1 */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
+}
+
+/* Warna tombol Project 1 saat di-hover */
+#project1Carousel .carousel-control-prev-icon:hover,
+#project1Carousel .carousel-control-next-icon:hover {
+    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
+}
+
+/* Tombol navigasi custom untuk carousel Project 2 */
+#project2Carousel .carousel-control-prev-icon,
+#project2Carousel .carousel-control-next-icon {
+    background-color: #007bff; /* Warna tombol hijau untuk Project 2 */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
+}
+
+/* Warna tombol Project 2 saat di-hover */
+#project2Carousel .carousel-control-prev-icon:hover,
+#project2Carousel .carousel-control-next-icon:hover {
+    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
+}
+
+/* Tombol navigasi custom untuk carousel Project 3 */
+#project3Carousel .carousel-control-prev-icon,
+#project3Carousel .carousel-control-next-icon {
+    background-color: #007bff; /* Warna tombol hijau untuk Project 2 */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
+}
+
+/* Warna tombol Project 2 saat di-hover */
+#project3Carousel .carousel-control-prev-icon:hover,
+#project3Carousel .carousel-control-next-icon:hover {
+    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
+}
+
+
+/* Atur tinggi semua card agar sama */
+.row .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Membuat tinggi card merentang penuh */
+}
+
+/* Pastikan card-body juga mengambil sisa tinggi secara fleksibel */
+.row .card-body {
+    flex-grow: 1; /* Membuat card-body fleksibel mengikuti tinggi card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Memastikan isi body terlihat rapi */
+}
+
+/* Konsistensi gambar agar tidak mengubah tinggi card */
+.row .card-img-top {
+    object-fit: cover; /* Pastikan gambar proporsional */
+    height: 200px; /* Sesuaikan tinggi gambar */
+    width: 100%; /* Pastikan gambar melebar sesuai card */
+}
+

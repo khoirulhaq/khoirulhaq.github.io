@@ -1,200 +1,68 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Khoirul Haq's Portofolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Your Name]</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
-						<h1><strong>WELCOME</strong></h1>
-						
-						<p>This website is intended as Khoirul Haq's portofolio<br />
-						<!-- built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p> -->
-					</header>
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">About Me</a></li>
-							<li><a href="#sql">SQL Project</a></li>
-							<li><a href="#tableau">Tableau Dashboard</a></li>
-							<li><a href="#datalitics">Data Analytics Project</a></li>
-							<li><a href="#ML">Machine Learning Project</a></li>
-						<!--	<li><a href="#cta">Details</a></li>  -->
-						</ul>
-					</nav>
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Khoirul Haq</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certification">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publication">Publication</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Muhammad I'tikafi khoirul Haq</h2>
-										</header>
-										<p class="justified-paragraph">A graduate with a Bachelor's degree in Geophysics and a Master's degree in Physics who enjoys learning new things, with over 3 years of experience in the Python programming language. A well-rounded individual with a keen interest in IT, Data Analytics, Data Science, Machine Learning, and Geoscience. My vision is to be a genuinely useful person in my surroundings for as long as I could.</p>
-										<!--<ul class="actions">
-											 <li><a href="generic.html" class="button">Learn More</a></li> 
-										</ul>-->
-									</div>
-									<span class="image"><img src="gambar/profil.jpg" alt="" /></span>
-								</div>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/mi-khoirulhaq/" class="icon brands fa-linkedin alt"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/khoirulhaq/" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							</section>
+    <!-- Sections -->
+    <div id="home" class="section" data-include="sections/home.html"></div>
+    <div id="about" class="section" data-include="sections/about.html"></div>
+    <div id="projects" class="section" data-include="sections/projects.html"></div>
+    <div id="certification" class="section" data-include="sections/certification.html"></div>
+    <div id="publication" class="section" data-include="sections/publication.html"></div>
+    <div id="contact" class="section" data-include="sections/contact.html"></div>
 
-						<!-- First Section -->
-							<section id="sql" class="main special">
-								<header class="major">
-									<h2>SQL Project</h2>
-								</header>
-								<ul class="statistics">
-									<li>
-									  <a href="https://github.com/khoirulhaq/Portofolio-SQL" class="image featured">
-										<div style="display: flex; justify-content: center; align-items: center;">
-											<img src="gambar/sql2.png" alt="" style="max-width: 70%;" />
-										  </div>
-									  </a>
-									</li>
-								  </ul>
-								<p class="justified-paragraph">Welcome to my SQL Projects Showcase! In this section, I'm thrilled to present a curated selection of SQL projects that I've meticulously crafted. These projects represent my passion for working with data and extracting meaningful insights using SQL. Click the buttons below to delve into each project repository, and discover the intricacies of SQL-driven data analysis. If you have any questions or feedback, please don't hesitate to get in touch. Let's embark on this data-driven journey together!</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="https://github.com/khoirulhaq/Portofolio-SQL" class="button">View Project</a></li>
-									</ul>
-								</footer>
-							</section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Khoirul Haq. All Rights Reserved.</p>
+    </footer>
 
-						<!-- Second Section -->
-							<section id="tableau" class="main special">
-								<header class="major">
-									<h2>Tableau Dashboard</h2>
-								</header>
-								<ul class="statistics">
-									<li>
-									  <a href="https://public.tableau.com/app/profile/khoirul.haq/vizzes" class="image featured">
-										<div style="display: flex; justify-content: center; align-items: center;">
-											<img src="gambar/tableau-logo.png" alt="" style="max-width: 70%;" />
-										  </div>
-									  </a>
-									</li>
-								  </ul>
-								<p class="justified-paragraph">Welcome to my Data Visualization Gallery! Here, I showcase a collection of data visualizations created using Tableau. These interactive dashboards reveal the power of data in a visually compelling way. Click the buttons below to explore each Tableau dashboard, and dive into the world of data-driven insights. If you have any questions or feedback, don't hesitate to reach out.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/khoirul.haq/vizzes" class="button">View Dashboard</a></li>
-									</ul>
-								</footer>
-							</section>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
 
-							<section id="datalitics" class="main special">
-								<header class="major">
-									<h2>Data Analytics Project</h2>
-								</header>
-								<ul class="statistics">
-									<li>
-									  <a href="https://github.com/khoirulhaq/data-analytics-project" class="image featured">
-										<div style="display: flex; justify-content: center; align-items: center;">
-											<img src="gambar/da.png" alt="" style="max-width: 70%;" />
-										  </div>
-									  </a>
-									</li>
-								  </ul>
-								  <p class="justified-paragraph">
-									Welcome to my Data Analytics Projects Showcase! In this section, I'm thrilled to showcase a curated selection of Data Analytics projects that I've been involved in. These projects highlight my enthusiasm for leveraging Data Analytics to address intricate challenges and facilitate data-informed decision-making. Click the buttons below to explore each project repository and discover the transformative power of Data Analytics. If you have any questions or feedback, feel free to get in touch. Let's embark on this data-driven journey together!</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="https://github.com/khoirulhaq/data-analytics-project" class="button">View Project</a></li>
-									</ul>
-								</footer>
-							</section>
-
-							<section id="ML" class="main special">
-								<header class="major">
-									<h2>Machine Learning Project</h2>
-								</header>
-								<ul class="statistics">
-									<li>
-									  <a href="https://github.com/khoirulhaq/KH-ML-Project" class="image featured">
-										<div style="display: flex; justify-content: center; align-items: center;">
-											<img src="gambar/ML-logo.png" alt="" style="max-width: 70%;" />
-										  </div>
-									  </a>
-									</li>
-								  </ul>
-								  <p class="justified-paragraph">Welcome to my Machine Learning Projects Showcase! In this section, I'm excited to present a curated selection of Machine Learning projects that I've worked on. These projects exemplify my passion for harnessing the capabilities of Machine Learning to solve complex problems and make data-driven decisions. Click the buttons below to delve into each project repository, and uncover the transformative potential of Machine Learning. If you have any questions or feedback, please don't hesitate to reach out. Let's embark on this data-driven journey together!</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="https://github.com/khoirulhaq/KH-ML-Project" class="button">View Project</a></li>
-									</ul>
-								</footer>
-							</section>
-
-						<!-- Get Started 
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Details</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-								</header>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">SQL</a></li>
-										<li><a href="generic.html" class="button">Tableau</a></li>
-										<li><a href="generic.html" class="button">Machine Learning</a></li>
-
-									</ul>
-								</footer>
-							</section>
-							-->
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Let's work together!</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>Cirebon, Jawa Barat, Indonesia</dd>
-								<dt>Email</dt>
-								<dd><a href="mailto:khoirulhaq23@gmail.com">khoirulhaq23@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/mi-khoirulhaq/" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/khoirulhaq" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        // Include sections
+        document.querySelectorAll('[data-include]').forEach(el => {
+            fetch(el.getAttribute('data-include'))
+                .then(response => response.text())
+                .then(data => el.innerHTML = data);
+        });
+    </script>
+</body>
 </html>
