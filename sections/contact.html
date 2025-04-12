@@ -1,34 +1,77 @@
 <!-- Contact Section -->
-<section id="contact" class="py-5 bg-light">
-    <div class="container text-center">
-        <h2 data-aos="fade-up">Contact Me</h2>
-        <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Feel free to reach out through any of the platforms below:</p>
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="400">
-            <!-- Email -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="text-center">
-                    <i class="bi bi-envelope-fill" style="font-size: 3rem;"></i>
-                    <p class="mt-2" style="font-size: 1.1rem;">Email: <a href="mailto:khoirulhaq.learn@gmail.com" class="text-decoration-none text-dark">khoirulhaq.learn@gmail.com</a></p>
-                </div>
-            </div>
-            <!-- GitHub -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="text-center">
-                    <a href="https://github.com/khoirulhaq" class="text-decoration-none text-dark">
-                        <i class="bi bi-github" style="font-size: 3rem;"></i>
-                        <p class="mt-2" style="font-size: 1.1rem;">GitHub</p>
-                    </a>
-                </div>
-            </div>
-            <!-- LinkedIn -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="text-center">
-                    <a href="https://www.linkedin.com/in/khoirulhaq/" class="text-decoration-none text-dark">
-                        <i class="bi bi-linkedin" style="font-size: 3rem;"></i>
-                        <p class="mt-2" style="font-size: 1.1rem;">LinkedIn</p>
-                    </a>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg border-0 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-body p-5">
+                        <div class="row">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <h4 class="mb-4">Contact Information</h4>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-envelope-fill"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Email</h6>
+                                        <a href="mailto:khoirulhaq.learn@gmail.com" class="contact-link">khoirulhaq.learn@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-github"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">GitHub</h6>
+                                        <a href="https://github.com/khoirulhaq" class="contact-link" target="_blank">github.com/khoirulhaq</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="contact-icon me-3">
+                                        <i class="bi bi-linkedin"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">LinkedIn</h6>
+                                        <a href="https://www.linkedin.com/in/khoirulhaq/" class="contact-link" target="_blank">linkedin.com/in/khoirulhaq</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="mb-4">Send Me a Message</h4>
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="subject" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    // Simple form handling (you would need to implement actual form submission)
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! This is a demo form. In a real implementation, this would send your message.');
+        this.reset();
+    });
+</script>

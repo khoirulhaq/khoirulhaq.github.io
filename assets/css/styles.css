@@ -1,127 +1,467 @@
 /* Custom CSS */
+:root {
+    --primary-color: #2d5af5;
+    --secondary-color: #6c757d;
+    --accent-color: #ff6b6b;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --success-color: #28a745;
+    --transition-speed: 0.3s;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', 'Arial', sans-serif;
     line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
 }
-h2 {
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    color: var(--dark-color);
 }
 
-/* Hover effect */
-a:hover {
-    color: #007bff; /* Bisa diganti dengan warna lain sesuai tema */
+h2 {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 
-a i {
-    transition: transform 0.3s ease;
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
 }
 
-/* Ikon animasi ketika di-hover */
-a:hover i {
+/* Navbar Styling */
+.navbar {
+    padding: 1rem 0;
+    transition: all var(--transition-speed);
+    background-color: rgba(33, 37, 41, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 0.5rem;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: all var(--transition-speed);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: white !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width var(--transition-speed);
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+}
+
+/* Home Section */
+#home {
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#home .overlay {
+    background: linear-gradient(135deg, rgba(33, 37, 41, 0.9) 0%, rgba(33, 37, 41, 0.7) 100%);
+}
+
+#home h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+#home h2 {
+    color: var(--primary-color);
+}
+
+#home h2::after {
+    display: none;
+}
+
+#home p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Scroll Down Indicator */
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.mouse-wrapper {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.mouse {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.wheel {
+    width: 4px;
+    height: 8px;
+    background-color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 8px;
+    animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-speed);
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: #1a45d0;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* About Section */
+#about {
+    padding: 5rem 0;
+}
+
+#about img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-speed);
+}
+
+#about img:hover {
+    transform: translateY(-10px);
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0.5rem;
+    transition: transform var(--transition-speed);
+}
+
+.skill-icon:hover {
     transform: scale(1.2);
 }
 
+/* Projects Section */
+#projects {
+    padding: 5rem 0;
+    background-color: var(--light-color);
+}
 
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all var(--transition-speed);
+    height: 100%;
+}
 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+.card-text {
+    color: var(--secondary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all var(--transition-speed);
+}
+
+.btn-primary:hover {
+    background-color: #1a45d0;
+    border-color: #1a45d0;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(45, 90, 245, 0.3);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all var(--transition-speed);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(45, 90, 245, 0.3);
+}
+
+/* Certification Section */
 #certification {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 5rem 0;
 }
 
 #certification .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 #certification .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+#certification .card-body {
+    padding: 2rem;
+}
+
+#certification .card-title {
+    color: var(--dark-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#certification .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+#certification .btn-outline-primary {
+    border-width: 2px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#certification .btn-outline-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+}
+
+#certification img {
+    transition: transform 0.3s ease;
+}
+
+#certification .card:hover img {
     transform: scale(1.05);
 }
 
-.d-flex {
-    display: flex;
-    overflow-x: auto;
-    padding: 10px;
+/* Publication Section */
+#publication {
+    padding: 5rem 0;
+    background-color: var(--light-color);
 }
 
-.d-flex::-webkit-scrollbar {
-    height: 8px;
+/* Contact Section */
+#contact {
+    padding: 5rem 0;
 }
 
-.d-flex::-webkit-scrollbar-thumb {
-    background: #888;
+.contact-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    transition: all var(--transition-speed);
+}
+
+.contact-link {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: all var(--transition-speed);
+}
+
+.contact-link:hover {
+    color: var(--primary-color);
+}
+
+.contact-link:hover .contact-icon {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 1.5rem 0;
+}
+
+footer a {
+    transition: all var(--transition-speed);
+}
+
+footer a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 1.5rem;
+    background-size: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #1a45d0;
+}
+
+/* Modal Styling */
+.modal-content {
+    border: none;
+    border-radius: 1rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+    
+    #home p {
+        font-size: 1rem;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+    
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* Animation Classes */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
     border-radius: 5px;
 }
 
-.d-flex::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
-
-/* Tombol navigasi custom untuk carousel Project 1 */
-#project1Carousel .carousel-control-prev-icon,
-#project1Carousel .carousel-control-next-icon {
-    background-color: #007bff; /* Warna tombol biru untuk Project 1 */
-    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
-    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
-}
-
-/* Warna tombol Project 1 saat di-hover */
-#project1Carousel .carousel-control-prev-icon:hover,
-#project1Carousel .carousel-control-next-icon:hover {
-    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
-}
-
-/* Tombol navigasi custom untuk carousel Project 2 */
-#project2Carousel .carousel-control-prev-icon,
-#project2Carousel .carousel-control-next-icon {
-    background-color: #007bff; /* Warna tombol hijau untuk Project 2 */
-    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
-    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
-}
-
-/* Warna tombol Project 2 saat di-hover */
-#project2Carousel .carousel-control-prev-icon:hover,
-#project2Carousel .carousel-control-next-icon:hover {
-    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
-}
-
-/* Tombol navigasi custom untuk carousel Project 3 */
-#project3Carousel .carousel-control-prev-icon,
-#project3Carousel .carousel-control-next-icon {
-    background-color: #007bff; /* Warna tombol hijau untuk Project 2 */
-    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
-    padding: 10px; /* Menambah ukuran tombol agar lebih terlihat */
-}
-
-/* Warna tombol Project 2 saat di-hover */
-#project3Carousel .carousel-control-prev-icon:hover,
-#project3Carousel .carousel-control-next-icon:hover {
-    background-color: #0056b3; /* Warna lebih gelap saat di-hover */
-}
-
-
-/* Atur tinggi semua card agar sama */
-.row .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%; /* Membuat tinggi card merentang penuh */
-}
-
-/* Pastikan card-body juga mengambil sisa tinggi secara fleksibel */
-.row .card-body {
-    flex-grow: 1; /* Membuat card-body fleksibel mengikuti tinggi card */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Memastikan isi body terlihat rapi */
-}
-
-/* Konsistensi gambar agar tidak mengubah tinggi card */
-.row .card-img-top {
-    object-fit: cover; /* Pastikan gambar proporsional */
-    height: 200px; /* Sesuaikan tinggi gambar */
-    width: 100%; /* Pastikan gambar melebar sesuai card */
+::-webkit-scrollbar-thumb:hover {
+    background: #1a45d0;
 }
 
