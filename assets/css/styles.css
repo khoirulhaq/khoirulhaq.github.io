@@ -465,3 +465,65 @@ footer a:hover {
     background: #1a45d0;
 }
 
+/* Services Section Styles */
+#services .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+#services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+#services .service-icon {
+    transition: transform 0.3s ease;
+}
+
+#services .card:hover .service-icon {
+    transform: scale(1.1);
+}
+
+#services .card-title {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+#services .card-text {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+#services .btn-outline-primary {
+    border-width: 2px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#services .btn-outline-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+}
+
+#services .process-icon {
+    transition: transform 0.3s ease;
+}
+
+#services .process-icon:hover {
+    transform: scale(1.1);
+}
+
+#services h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#services p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+

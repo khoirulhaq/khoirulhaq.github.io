@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /sections/
+Allow: /sitemap.xml
+
+Sitemap: https://khoirulhaq.github.io/sitemap.xml 
