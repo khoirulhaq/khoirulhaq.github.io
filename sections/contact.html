@@ -39,25 +39,12 @@
                             </div>
                             <div class="col-md-6">
                                 <h4 class="mb-4">Send Me a Message</h4>
-                                <form id="contactForm">
-                                    <div class="mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="subject" class="form-label">Subject</label>
-                                        <input type="text" class="form-control" id="subject" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" id="message" rows="4" required></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
-                                </form>
+                                <p class="mb-4">Please use the form below to send me a message. I'll get back to you as soon as possible.</p>
+                                <div class="text-center">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc57PdfnvnCELnprgXJc54m3prMGlFlyWCfhkCT46Jw6MJfJA/viewform" class="btn btn-primary btn-lg" target="_blank">
+                                        <i class="bi bi-envelope-paper me-2"></i> Open Contact Form
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -68,10 +55,9 @@
 </section>
 
 <script>
-    // Simple form handling (you would need to implement actual form submission)
+    // Form handling with Formspree
     document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        alert('Thank you for your message! This is a demo form. In a real implementation, this would send your message.');
-        this.reset();
+        // Formspree will handle the submission automatically
+        // You can add additional validation or UI feedback here if needed
     });
 </script>
