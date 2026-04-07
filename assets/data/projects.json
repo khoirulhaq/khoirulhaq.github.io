@@ -1,0 +1,384 @@
+[
+  {
+    "id": "project1",
+    "title": {
+      "en": "Presitas3D WebApp",
+      "id": "Presitas3D WebApp"
+    },
+    "description": {
+      "en": "An innovative solution powered by deep learning and Convolutional Neural Networks (CNN), enabling you to quickly and accurately analyze 3D digital rocks. With advanced algorithms, our platform estimates key rock properties, including porosity, specific surface area, average grain size, coordination number, and throat radius.",
+      "id": "Solusi inovatif yang didukung oleh deep learning dan <strong>Convolutional Neural Networks (CNN)</strong>, memungkinkan analisis cepat dan akurat terhadap digital 3D rock samples. Dengan algoritma canggih, platform kami memperkirakan properti fisik utama batuan, termasuk porositas, specific surface area, average grain size, coordination number, dan throat radius."
+    },
+    "image": "assets/images/presitas3d/doc1.jpg",
+    "tags": [
+      "Python",
+      "TensorFlow",
+      "CNN"
+    ],
+    "github": "https://github.com/khoirulhaq/presitas3d-webapp",
+    "modalImages": [
+      "assets/images/presitas3d/doc1.jpg",
+      "assets/images/presitas3d/doc2.jpg",
+      "assets/images/presitas3d/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project2",
+    "title": {
+      "en": "Judicial Document Summarizer",
+      "id": "Pembuat Ringkasan Dokumen Yudisial"
+    },
+    "description": {
+      "en": "A specialized AI tool utilizing Large Language Models (LLMs) to produce accurate summaries and conclusions from Supreme Court rulings. By extracting essential points and legal reasoning, it enhances accessibility and understanding of judicial decisions for lawyers, researchers, and the general public.",
+      "id": "Alat AI khusus yang memanfaatkan <strong>Large Language Models (LLM)</strong> untuk menghasilkan ringkasan dan kesimpulan yang akurat dari putusan Mahkamah Agung. Dengan mengekstrak poin-poin utama dan argumentasi hukum, alat ini meningkatkan aksesibilitas dan pemahaman terhadap keputusan yudisial bagi pengacara, peneliti, dan masyarakat umum."
+    },
+    "image": "assets/images/summarize.jpg",
+    "tags": [
+      "Python",
+      "LLM",
+      "NLP"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/sumarize/doc1.jpg",
+      "assets/images/sumarize/doc2.jpg",
+      "assets/images/sumarize/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project3",
+    "title": {
+      "en": "Expense Tracker App",
+      "id": "Aplikasi Pelacak Pengeluaran"
+    },
+    "description": {
+      "en": "An intuitive and scalable application designed to help users manage and track their daily expenses efficiently. Built using Flask, Tailwind CSS, and Apache ECharts, this app offers a user-friendly interface with dynamic data visualization for better financial management.",
+      "id": "Aplikasi yang intuitif dan skalabel, dirancang untuk membantu pengguna mengelola dan memantau pengeluaran harian secara efisien. Dibangun menggunakan <strong>Flask</strong>, <strong>Tailwind CSS</strong>, dan <strong>Apache ECharts</strong>, aplikasi ini menawarkan antarmuka yang ramah pengguna dengan visualisasi data yang dinamis untuk mendukung manajemen keuangan yang lebih efektif."
+    },
+    "image": "assets/images/exp-tract/doc1.jpg",
+    "tags": [
+      "Flask",
+      "Tailwind CSS",
+      "ECharts"
+    ],
+    "github": "https://github.com/khoirulhaq/expense_report_beta",
+    "modalImages": [
+      "assets/images/exp-tract/doc1.jpg",
+      "assets/images/exp-tract/doc2.jpg",
+      "assets/images/exp-tract/doc3.jpg",
+      "assets/images/exp-tract/doc4.jpg"
+    ]
+  },
+  {
+    "id": "project4",
+    "title": {
+      "en": "AI Chatbot Database Integration",
+      "id": "Integrasi Chatbot AI dengan Database"
+    },
+    "description": {
+      "en": "A smart and interactive chatbot that simplifies database queries by leveraging Qwen-2.5-32B, a large language model from Alibaba Cloud. Built with Flask, SQLite, and Tailwind CSS, this application allows users to retrieve expense data using natural language instead of writing SQL queries manually.",
+      "id": "Chatbot pintar dan interaktif yang menyederhanakan query database dengan memanfaatkan <strong>Qwen-2.5-32B</strong>, model bahasa besar dari <strong>Alibaba Cloud</strong>. Dibangun menggunakan <strong>Flask</strong>, <strong>SQLite</strong>, dan <strong>Tailwind CSS</strong>, aplikasi ini memungkinkan pengguna untuk mengambil data pengeluaran menggunakan bahasa alami, tanpa perlu menulis query SQL secara manual."
+    },
+    "image": "assets/images/aichatbotdb/doc0.jpg",
+    "tags": [
+      "Flask",
+      "SQLite",
+      "LLM"
+    ],
+    "github": "https://github.com/khoirulhaq/dbaichatbot",
+    "modalImages": [
+      "assets/images/aichatbotdb/doc1.jpg",
+      "assets/images/aichatbotdb/doc2.jpg",
+      "assets/images/aichatbotdb/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project5",
+    "title": {
+      "en": "Local LLM API Deployment",
+      "id": "Deployment API LLM Lokal"
+    },
+    "description": {
+      "en": "A secure and modular API solution that enables local deployment of Large Language Models (LLMs) using Docker and FastAPI. Designed for flexibility and data privacy, this system allows seamless integration of LLMs into internal tools—supporting model customization, streaming, and API key protection without relying on external cloud infrastructure.",
+      "id": "Solusi API yang aman dan modular yang memungkinkan penyebaran model bahasa besar (LLM) secara lokal menggunakan Docker dan FastAPI. Dirancang untuk fleksibilitas dan privasi data, sistem ini memungkinkan integrasi LLM yang mulus ke dalam alat internal—mendukung penyesuaian model, streaming, dan perlindungan kunci API tanpa bergantung pada infrastruktur cloud eksternal."
+    },
+    "image": "assets/images/pro_llm-local-api/llm1.jpg",
+    "tags": [
+      "FastAPI",
+      "Ollama",
+      "Docker",
+      "LLM"
+    ],
+    "github": "https://github.com/khoirulhaq/dockollama",
+    "modalImages": [
+      "assets/images/pro_llm-local-api/llm1.jpg",
+      "assets/images/pro_llm-local-api/llm2.jpg"
+    ]
+  },
+  {
+    "id": "project6",
+    "title": {
+      "en": "Centralized Employee Database & Lifecycle Management System",
+      "id": "Sistem Manajemen Lifecycle & Database Karyawan Terpusat"
+    },
+    "description": {
+      "en": "A comprehensive web-based platform designed to digitize and centralize end-to-end HR administrative processes. Built as a solo developer, the system automates the entire employee lifecycle, including contract duration monitoring, onboarding/offboarding management, and real-time status tracking. By transitioning fragmented manual records into a structured and secure database, this application ensures high data integrity and provides streamlined organizational oversight for more efficient management.",
+      "id": "Platform berbasis web komprehensif yang dirancang untuk mendigitalisasi dan memusatkan proses administrasi HR dari awal hingga akhir. Dibangun sebagai pengembang tunggal, sistem ini mengotomatiskan seluruh siklus hidup karyawan, termasuk pemantauan durasi kontrak, manajemen onboarding/offboarding, dan pelacakan status secara real-time. Dengan merubah catatan manual yang terfragmentasi menjadi database yang terstruktur dan aman, aplikasi ini menjamin integritas data yang tinggi dan mempermudah pengawasan organisasi untuk manajemen yang lebih efisien."
+    },
+    "image": "assets/images/employee/doc1.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "Google Workspace API"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/employee/doc1.jpg",
+      "assets/images/employee/doc2.jpg",
+      "assets/images/employee/doc3.jpg",
+      "assets/images/employee/doc4.jpg",
+      "assets/images/employee/doc5.jpg"
+    ]
+  },
+  {
+    "id": "project7",
+    "title": {
+      "en": "Automated Biometric Data Pipeline & Reporting System",
+      "id": "Sistem Pelaporan & Pipeline Data Biometrik Otomatis"
+    },
+    "description": {
+      "en": "A specialized data processing engine built to automate the extraction and cleaning of raw biometric logs from fingerprint devices. As a solo developer, I engineered a custom ETL pipeline that transforms fragmented, unstructured attendance data into high-integrity reports ready for payroll and HR analysis. By eliminating manual data entry and human error, this system ensures 100% accuracy in attendance tracking and significantly reduces the monthly reporting cycle for the HR department.",
+      "id": "Mesin pemrosesan data khusus yang dibangun untuk mengotomatiskan ekstraksi dan pembersihan log biometrik mentah dari perangkat sidik jari. Sebagai pengembang tunggal, saya merancang pipeline ETL kustom yang merubah data kehadiran yang tidak terstruktur dan terfragmentasi menjadi laporan berintegritas tinggi yang siap untuk analisis payroll dan HR. Dengan meniadakan entri data manual dan kesalahan manusia, sistem ini menjamin akurasi 100% dalam pelacakan kehadiran dan secara signifikan mengurangi siklus pelaporan bulanan untuk departemen HR."
+    },
+    "image": "assets/images/attendance/doc.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "Data Cleaning",
+      "Automated Reporting"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/attendance/doc.jpg"
+    ]
+  },
+  {
+    "id": "project8",
+    "title": {
+      "en": "AI CV Analyzer",
+      "id": "AI CV Analyzer"
+    },
+    "description": {
+      "en": "An advanced recruitment tool designed to streamline the hiring process through automated candidate screening. Built as a solo developer, this application leverages Large Language Models (LLMs) to analyze and rank CVs based on specific job requirements. Beyond simple keyword matching, the system performs deep semantic analysis to evaluate candidate skills, experience, and cultural fit, transforming hundreds of resumes into a curated shortlist of top-tier talent for the HR department.",
+      "id": "Alat rekrutmen tingkat lanjut yang dirancang untuk merampingkan proses seleksi kandidat melalui penyaringan CV otomatis. Dibangun sebagai pengembang tunggal, aplikasi ini memanfaatkan Large Language Models (LLM) untuk menganalisis dan memberikan peringkat pada CV berdasarkan kebutuhan spesifik pekerjaan. Melampaui sekadar pencocokan kata kunci biasa, sistem ini melakukan analisis semantik yang mendalam untuk mengevaluasi keterampilan dan pengalaman kandidat, mengubah ratusan resume menjadi daftar pendek (shortlist) talenta terbaik yang siap diproses oleh tim HR."
+    },
+    "image": "assets/images/aicv/doc3.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "LLM",
+      "Langchain",
+      "Gemini AI",
+      "Semantic Search",
+      "Recruitment Automation"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/aicv/doc1.jpg",
+      "assets/images/aicv/doc2.jpg",
+      "assets/images/aicv/doc3.jpg",
+      "assets/images/aicv/doc4.jpg"
+    ]
+  },
+  {
+    "id": "project9",
+    "title": {
+      "en": "Mahaverse: AI-Validated Executive Reporting Platform",
+      "id": "Mahaverse: AI-Validated Executive Reporting Platform"
+    },
+    "description": {
+      "en": "A high-level executive dashboard designed as the primary reporting channel between department heads (Finance, Legal, Operations, etc.) and the CEO. Built as a solo architect, the platform features an intelligent AI validation layer that evaluates the quality and consistency of departmental reports before they reach the executive level. By integrating real-time progress tracking and automated data verification, Mahaverse ensures high-level accountability and provides the CEO with a single, verified source of truth for strategic decision-making.",
+      "id": "Platform dashboard eksekutif tingkat tinggi yang dirancang sebagai saluran pelaporan utama antara para kepala divisi (Keuangan, Hukum, Operasional, dll.) dengan CEO. Dibangun sebagai pengembang tunggal, platform ini dilengkapi dengan lapisan validasi AI cerdas yang mengevaluasi kualitas dan konsistensi laporan divisi sebelum sampai ke tingkat eksekutif. Dengan mengintegrasikan pelacakan progres real-time dan verifikasi data otomatis, Mahaverse memastikan akuntabilitas tingkat tinggi dan memberikan CEO satu sumber data yang terverifikasi untuk pengambilan keputusan strategis."
+    },
+    "image": "assets/images/mahaverse/doc1.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "LLM",
+      "Langchain",
+      "Gemini AI",
+      "Executive Dashboard"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/mahaverse/doc1.jpg",
+      "assets/images/mahaverse/doc2.jpg",
+      "assets/images/mahaverse/doc3.jpg",
+      "assets/images/mahaverse/doc4.jpg",
+      "assets/images/mahaverse/doc5.jpg"
+    ]
+  },
+  {
+    "id": "project10",
+    "title": {
+      "en": "AI-Driven Sales Order Automation System",
+      "id": "AI-Driven Sales Order Automation System"
+    },
+    "description": {
+      "en": "An innovative automation tool designed to streamline the sales process by extracting order data from unstructured WhatsApp chats. Built as a solo developer, the system leverages Large Language Models (LLMs) to parse customer orders and incorporates Fuzzy Logic algorithms to intelligently match and detect similarities across product catalogs, customer databases, and salesman records. By implementing a Human-in-the-Loop validation interface, the application ensures 100% data accuracy while significantly reducing manual entry time for the Sales Admin department.",
+      "id": "Alat otomasi inovatif yang dirancang untuk merampingkan proses penjualan dengan mengekstraksi data pesanan dari chat WhatsApp yang tidak terstruktur. Dibangun sebagai pengembang tunggal, sistem ini memanfaatkan Large Language Models (LLM) untuk mengurai pesanan pelanggan dan mengintegrasikan algoritma Fuzzy Logic untuk mencocokkan serta mendeteksi kemiripan data pada katalog produk, basis data pelanggan, maupun catatan salesman. Dengan mengimplementasikan antarmuka validasi \"Human-in-the-Loop\", aplikasi ini menjamin akurasi data 100% sekaligus secara signifikan mengurangi waktu input manual bagi Admin Sales."
+    },
+    "image": "assets/images/salesorder/doc1.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "LLM",
+      "Langchain",
+      "Gemini AI",
+      "Data Structuring",
+      "Human-in-the-Loop",
+      "Fuzzy Matching"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/salesorder/doc1.jpg",
+      "assets/images/salesorder/doc2.jpg",
+      "assets/images/salesorder/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project11",
+    "title": {
+      "en": "Internal Audit Progress & Compliance Tracker",
+      "id": "Internal Audit Progress & Compliance Tracker"
+    },
+    "description": {
+      "en": "A specialized workflow management platform developed for the Internal Audit department to monitor and track the progress of audit findings. The system centralizes all audit documentation and provides real-time visibility into follow-up actions and compliance status across various divisions. Built as a solo architect, this tool replaces manual spreadsheets with a secure, automated tracking environment that enhances accountability and ensures timely resolution of internal audit recommendations.",
+      "id": "Platform manajemen alur kerja khusus yang dikembangkan untuk departemen Audit Internal untuk memantau dan melacak progres temuan audit. Sistem ini mensentralisasi seluruh dokumentasi audit dan memberikan visibilitas real-time terhadap tindakan lanjut dan status kepatuhan di berbagai divisi. Dibangun sebagai pengembang tunggal, alat ini menggantikan spreadsheet manual dengan lingkungan pelacakan otomatis yang aman, guna meningkatkan akuntabilitas dan memastikan penyelesaian rekomendasi audit internal tepat waktu."
+    },
+    "image": "assets/images/intaudit/doc1.jpg",
+    "tags": [
+      "Python",
+      "Flask",
+      "Docker",
+      "Compliance Tracking"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/intaudit/doc1.jpg",
+      "assets/images/intaudit/doc2.jpg",
+      "assets/images/intaudit/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project12",
+    "title": {
+      "en": "Omni-Channel Stock Signal Intelligence & Filter",
+      "id": "Omni-Channel Stock Signal Intelligence & Filter"
+    },
+    "description": {
+      "en": "A real-time automation system designed to filter and extract actionable stock signals from high-volume community discussions on Telegram and Discord. Built as a solo developer, the system utilizes multi-threading to concurrently monitor multiple platforms, leveraging AI to distinguish stock-related discussions from casual chat. It automatically identifies ticker symbols (emitens) and provides AI-simplified insights, allowing the user to stay informed on market opportunities without the need for constant manual monitoring during work hours.",
+      "id": "Sistem otomasi real-time yang dirancang untuk menyaring dan mengekstraksi sinyal saham dari diskusi komunitas bervolume tinggi di Telegram dan Discord. Dibangun sebagai pengembang tunggal, sistem ini menggunakan multi-threading untuk memantau beberapa platform secara bersamaan, memanfaatkan AI untuk membedakan pembahasan saham dari percakapan biasa. Sistem ini secara otomatis mengidentifikasi simbol emiten dan memberikan ringkasan wawasan berbasis AI, memungkinkan pengguna tetap terinformasi tentang peluang pasar tanpa perlu memantau diskusi secara manual di sela waktu kerja."
+    },
+    "image": "assets/images/stock-signal/doc1.jpg",
+    "tags": [
+      "Python",
+      "Multi-threading",
+      "NLP",
+      "Telegram API",
+      "Discord API",
+      "AI Summarization"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/stock-signal/doc1.jpg",
+      "assets/images/stock-signal/doc2.jpg",
+      "assets/images/stock-signal/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project13",
+    "title": {
+      "en": "Smart Money Tracker & Automated IDX Broker Analysis",
+      "id": "Smart Money Tracker & Analisis Broker BEI Otomatis"
+    },
+    "description": {
+      "en": "An automated data pipeline and analytics engine designed to track 'Smart Money' positions in the Indonesia Stock Exchange (IDX). Built as a solo developer using a microservices architecture (FastAPI for high-speed data fetching and Flask for application management), the system features an automated scheduler that triggers every market close. It performs continuous looping to detect data availability, fetches raw broker summary records, and executes complex calculations to determine average prices and realized/unrealized gains. The system is engineered with market calendar awareness to intelligently handle market holidays and weekends. It integrates with Google Sheets for watchlist management and delivers real-time reports via Telegram.",
+      "id": "Pipeline data otomatis dan mesin analitik yang dirancang untuk melacak posisi 'Smart Money' di Bursa Efek Indonesia (BEI). Dibangun sebagai pengembang tunggal menggunakan arsitektur microservices (FastAPI untuk pengambilan data cepat dan Flask untuk manajemen aplikasi), sistem ini dilengkapi dengan penjadwal otomatis yang aktif setiap pasar tutup. Sistem melakukan looping berkelanjutan untuk mendeteksi ketersediaan data, mengambil data mentah broker summary, dan mengeksekusi kalkulasi kompleks untuk menentukan harga rata-rata serta keuntungan yang sudah direalisasi maupun belum. Sistem ini dirancang dengan kesadaran kalender bursa untuk menangani hari libur pasar dan akhir pekan secara cerdas. Terintegrasi dengan Google Sheets untuk manajemen watchlist dan mengirimkan laporan real-time melalui Telegram."
+    },
+    "image": "assets/images/smart-money/doc1.jpg",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Flask",
+      "Automated Scheduler",
+      "Market Calendar Awareness",
+      "Google Sheets API",
+      "Stocks Market",
+      "Telegram Bot API"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/smart-money/doc1.jpg",
+      "assets/images/smart-money/doc2.jpg",
+      "assets/images/smart-money/doc3.jpg"
+    ]
+  },
+  {
+    "id": "project14",
+    "title": {
+      "en": "On-Demand IDX Broker Analysis & Interactive Bot",
+      "id": "Analisis Broker BEI On-Demand & Bot Interaktif"
+    },
+    "description": {
+      "en": "An interactive financial analysis tool that provides real-time broker summary insights on demand. Unlike scheduled systems, this application allows users to trigger deep-dive stock analysis by sending specific ticker symbols via Telegram. Built with a microservices architecture using FastAPI and Flask, the system instantly fetches current market data, executes Smart Money tracking algorithms, and calculates accumulation patterns and average prices. This tool provides immediate tactical data for traders who need rapid, precise analysis during active market hours.",
+      "id": "Alat analisis keuangan interaktif yang memberikan wawasan broker summary secara real-time berdasarkan permintaan (on-demand). Berbeda dengan sistem terjadwal, aplikasi ini memungkinkan pengguna untuk memicu analisis mendalam saham tertentu hanya dengan mengirimkan kode emiten melalui Telegram. Dibangun dengan arsitektur microservices menggunakan FastAPI dan Flask, sistem secara instan mengambil data pasar terkini, menjalankan algoritma pelacakan Smart Money, serta menghitung pola akumulasi dan harga rata-rata. Alat ini memberikan data taktis instan bagi trader yang membutuhkan analisis cepat dan presisi selama jam bursa aktif."
+    },
+    "image": "assets/images/on-demand/doc3.jpg",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Telegram Bot API",
+      "On-Demand Analytics",
+      "Real-time Data Processing",
+      "Smart Money Tracking"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/on-demand/doc1.jpg",
+      "assets/images/on-demand/doc2.jpg",
+      "assets/images/on-demand/doc3.jpg",
+      "assets/images/on-demand/doc4.jpg",
+      "assets/images/on-demand/doc5.jpg"
+    ]
+  },
+  {
+    "title": {
+      "en": "Multi-Outlet Service Operations & Feedback Automation",
+      "id": "Otomasi Operasional Layanan & Feedback Multi-Outlet"
+    },
+    "description": {
+      "en": "A scalable O2O (Online-to-Offline) automation system designed to streamline service tracking and data collection across multiple physical locations. Using a QR-to-Bot entry point, the system allows real-time monitoring of service cycles (start-to-end) by synchronizing Telegram interactions with structured Google Sheets databases and centralized group notifications. Additionally, the system incorporates an AI-powered parser using Large Language Models (LLMs) to intelligently process unstructured feedback and Google Reviews, handling typos and semantic variations to ensure high-integrity data for business analytics.",
+      "id": "Sistem otomasi O2O (Online-to-Offline) yang scalable, dirancang untuk merampingkan pelacakan layanan dan pengumpulan data di berbagai lokasi fisik. Menggunakan QR-to-Bot sebagai pintu masuk, sistem ini memungkinkan pemantauan siklus layanan secara real-time (awal hingga akhir) dengan menyinkronkan interaksi Telegram ke basis data Google Sheets dan notifikasi grup terpusat. Selain itu, sistem ini mengintegrasikan AI parser berbasis Large Language Models (LLM) untuk memproses feedback dan ulasan Google secara cerdas, menangani kesalahan pengetikan serta variasi semantik guna memastikan integritas data yang tinggi untuk analisis bisnis."
+    },
+    "image": "assets/images/o2o-automation/doc.jpg",
+    "tags": [
+      "Python",
+      "Telegram Bot API",
+      "LLM (AI Parser)",
+      "QR Integration",
+      "Google Sheets API",
+      "O2O Automation",
+      "Operations Monitoring"
+    ],
+    "github": null,
+    "modalImages": [
+      "assets/images/o2o-automation/doc.jpg"
+    ]
+  }
+]

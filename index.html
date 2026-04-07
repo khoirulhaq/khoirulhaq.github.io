@@ -177,20 +177,42 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Projects Dynamic Rendering -->
+    <script src="assets/js/projects.js"></script>
+
     <script>
-        // Initialize AOS
+        // AOS initialization
         AOS.init({
             duration: 800,
-            easing: 'ease-in-out',
-            once: true
+            once: true,
+            offset: 100
         });
 
-        // Include sections
-        document.querySelectorAll('[data-include]').forEach(el => {
-            fetch(el.getAttribute('data-include'))
-                .then(response => response.text())
-                .then(data => el.innerHTML = data);
+        // Load sections dynamically
+        document.querySelectorAll('[data-include]').forEach(async (el) => {
+            const file = el.getAttribute('data-include');
+            try {
+                const response = await fetch(file);
+                if (response.ok) {
+                    el.innerHTML = await response.text();
+                    
+                    // Trigger projects rendering if this is the projects section
+                    if (file === 'sections/projects.html') {
+                        renderProjects();
+                    }
+
+                    // Re-initialize AOS for new content
+                    AOS.init({
+                        duration: 800,
+                        once: true,
+                        offset: 100
+                    });
+                }
+            } catch (err) {
+                console.error(`Error loading ${file}:`, err);
+            }
         });
 
         // Smooth scrolling for anchor links
